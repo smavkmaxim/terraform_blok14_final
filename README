@@ -10,4 +10,9 @@
 
 5.  git add -A ; git commit -m "sdfsa" ; git push origin
 
+terragrunt init --all
+terragrunt validate --all
+terragrunt plan --all
+terragrunt apply --all
+terragrunt destroy --all
 
