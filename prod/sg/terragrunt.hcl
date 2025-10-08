@@ -15,6 +15,5 @@ inputs = {
     cidr_block = ["192.168.100.0/24"]
     env        = "prod"
     custom_zone       = "ru-central1-d"
-    custom_folder_id = "b1ge32e4edrv1bn68jeo"
     network_id = dependency.vpc.outputs.network-1
 }
