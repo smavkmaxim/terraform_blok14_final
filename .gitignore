@@ -2,3 +2,4 @@
 .terraformrc
 authorized_key.json
 .terraform.lock.hcl
+.terragrunt-cache
