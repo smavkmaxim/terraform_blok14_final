@@ -7,12 +7,13 @@ terraform {
 dependency "vpc" { 
   config_path = "../vpc"
     mock_outputs = {
-    subnet-1 = "temporary-dummy-id" # требуется для нормальной работы зависимостей
+    subnet-1-kma = "temporary-dummy-id" # требуется для нормальной работы зависимостей
   }
 }
 
 inputs = {
     env        = "dev"
     custom_zone       = "ru-central1-d"
-    subnet_id  = dependency.vpc.outputs.subnet-1
+    subnet_id  = dependency.vpc.outputs.subnet-1-kma
 }
+
