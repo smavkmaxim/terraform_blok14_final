@@ -4,7 +4,8 @@
 
 2.    Клонировать репозиторий в /opt sudo git clone https://github.com/smavkmaxim/terraform_blok14_final.git
 
-3.    перенести файлы з каталога /opt/terraform_blok13 mv /opt/terraform_blok13/* /opt mv /opt/terraform_blok13/.* /opt rm -r /opt/terraform_blok13
+3.    перенести файлы з каталога /opt/terraform_blok13 
+      mv /opt/terraform_blok14_final/* /opt;  mv /opt/terraform_blok14_final/.* /opt; rm -r /opt/terraform_blok14_final
 
 4.    git config --global --add safe.directory /opt; git config --global user.name "smavkmaxim" ; git config --global user.email "smavkmaxim@mail.ru"
 
